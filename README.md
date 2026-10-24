@@ -62,7 +62,7 @@ The FastAPI backend serves both the API endpoints and the production-built React
 python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000
 ```
 
-Open your browser at **[http://localhost:8000](http://localhost:8000)**.
+Open your browser at **(https://marketpilot-ai-tau.vercel.app/?utm_source=chatgpt.com)**
 
 ### 2. Frontend Development Mode (Hot Reload)
 
@@ -72,7 +72,7 @@ To develop with instant Vite hot-reloading:
 npm run dev
 ```
 
-Open **[http://localhost:5173](http://localhost:5173)** (API requests are automatically proxied to port 8000).
+Open **(https://marketpilot-ai-tau.vercel.app/?utm_source=chatgpt.com)** (API requests are automatically proxied to port 8000).
 
 ---
 
